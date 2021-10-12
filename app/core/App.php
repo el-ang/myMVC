@@ -1,5 +1,7 @@
 <?php
-    public function __construct(){
-        echo "MVC Ready!";
+    class App{
+        public function __construct(){
+            echo "MVC Ready!";
+        }
     }
 ?>
