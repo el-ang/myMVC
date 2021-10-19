@@ -6,13 +6,13 @@
 
         public function __construct(){
             $url = $this->parseURL();
-
-            // Controller
-
+            echo "<pre>";
+            var_dump($url);
+            echo "</pre>";
         }
 
         public function parseURL(){
-            if($_GET["url"]){
+            if(isset($_GET["url"])){
                 $url = rtrim($_GET["url"], "/");
                 $url = filter_var($url, FILTER_SANITIZE_URL);
                 $url = explode("/", $url);
