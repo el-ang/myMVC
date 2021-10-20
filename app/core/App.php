@@ -9,7 +9,7 @@
             echo "<pre>";
             var_dump($url);
             echo "</pre>";
-            $url = ($url != NULL? $url: array($this->controller, $this->method, $this->params));
+            $url = ($url != NULL? $url: [$this->controller]);
             $file = "../app/controllers/" . $url[0] . ".php";
             if(file_exists($file)){
                 $this->controller = $url[0];
