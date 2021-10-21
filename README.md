@@ -1,10 +1,5 @@
 # myMVC
-MVC build for Php by
-
-<div width="48" height="48" border-radius="50%">
-
-[![el-ang](https://avatars.githubusercontent.com/u/64268522?v=4&s=48)](https://github.com/el-ang "el-ang")
-
-</div>
+MVC build for Php
+[line break]by[line break][![el-ang](https://avatars.githubusercontent.com/u/64268522?v=4&s=48 "el-ang")[line break]el-ang](https://github.com/el-ang)
 
 `in progress..`
