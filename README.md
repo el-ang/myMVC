@@ -1,9 +1,9 @@
 # myMVC
 MVC build for Php by
 
-<div width="64" height="64" border-radius="50%">
+<div width="48" height="48" border-radius="50%">
 
-[![el-ang](https://avatars.githubusercontent.com/u/64268522?v=4&s=64)](https://github.com/el-ang)
+[![el-ang](https://avatars.githubusercontent.com/u/64268522?v=4&s=48)](https://github.com/el-ang "el-ang")
 
 </div>
 
