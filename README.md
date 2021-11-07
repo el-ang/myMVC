@@ -1,4 +1,7 @@
 # myMVC
-MVC build for Php by [el-ang](https://github.com/el-ang)
+<<<<<<< HEAD
 
 `in progress..`
+=======
+ idk heh..
+>>>>>>> bf861c1 (First Commit)

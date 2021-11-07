@@ -1,15 +1,16 @@
 <?php
-    class User{
+    class User extends Controller{
         public function main(){
-            echo "Please, choose more request!";
+            $data["title"] = __CLASS__;
+            $this->view(strtolower($data["title"]) . "/index", $data);
         }
 
         public function profile($id = NULL){
-            if($id != NULL){
-                echo "Hello user $id!";
-            }else{
-                echo "We cannot find your request, please try again!";
-            }
+            $data = array(
+                "id"    => $id,
+                "title" => ucfirst(str_replace(__CLASS__ . "::", "", __METHOD__))
+            );
+            $this->view(strtolower(__CLASS__) . "/profile", $data);
         }
     }
 ?>
