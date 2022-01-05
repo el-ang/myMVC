@@ -6,9 +6,9 @@
 
         public function __construct(){
             $url = $this->parseURL();
-            echo "<pre>";
+            /* echo "<pre>";
             var_dump($url);
-            echo "</pre>";
+            echo "</pre>"; */
             $url = ($url != NULL? $url: [$this->controller]);
             $file = "../app/controllers/" . $url[0] . ".php";
             if(file_exists($file)){

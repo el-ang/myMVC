@@ -1,7 +1,8 @@
 <?php
-    class Home{
+    class Home extends Controller{
         public function main(){
-            echo "Welcome!";
+            $data["title"] = __CLASS__;
+            $this->view(strtolower($data["title"]) . "/index", $data);
         }
     }
 ?>
